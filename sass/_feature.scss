@@ -1,0 +1,34 @@
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.feature__list {
+    display: flex;
+  & .feature__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4fa;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  
+  & .feature__item {
+    margin-right: 30px;
+  }
+  
+  & .feature__title {
+    margin-bottom: 10px;
+    margin-top: 0;
+  
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  
+  & .feature__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.14;}
+  }
